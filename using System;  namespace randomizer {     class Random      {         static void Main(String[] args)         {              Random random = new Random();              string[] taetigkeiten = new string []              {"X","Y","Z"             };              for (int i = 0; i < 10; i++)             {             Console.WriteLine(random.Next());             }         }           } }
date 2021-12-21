@@ -1,0 +1,22 @@
+using System;
+
+namespace randomizer
+{
+    class Random 
+    {
+        static void Main(String[] args)
+        {
+
+            Random random = new Random();
+
+            string[] taetigkeiten = new string [] 
+            {"X","Y","Z"
+            };
+
+            for (int i = 0; i < 10; i++)
+            {
+            Console.WriteLine(random.Next());
+            }
+        }      
+    }
+}
